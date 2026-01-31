@@ -58,7 +58,7 @@ document.querySelector('.js-result').
 
 document.querySelector('.js-move').innerHTML =
 `Your Move 
-<img src="images/${playerMove}-image.png" class = "move"> - 
+<img src="images/${playerMove}-image.png" class = "move"> <br> 
 Computer Move 
 <img src="images/${computerMove}-image.png" class = "move">`;
 

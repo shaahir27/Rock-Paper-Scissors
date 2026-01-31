@@ -11,12 +11,6 @@
         font-weight: bold;
       }
 
-      .buttons{
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-        }
-
       .image-button{
         background-color: transparent;
         border: none;
@@ -44,7 +38,7 @@
 
       .move{
         height: 40px;
-        font-size: clamp(30px, 10vw, 50px);
+        font-size: clamp(15px, 3vw, 50px);
 
       }
 
@@ -60,7 +54,7 @@
       }
 
       .js-move{
-        font-size: clamp(20px, 5vw, 40px);
+        font-size: clamp(20px, 3vw, 40px);
         font-family: 'Times New Roman';
         margin-top: 20px;
       }
