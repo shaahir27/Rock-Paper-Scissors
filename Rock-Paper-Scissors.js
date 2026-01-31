@@ -63,11 +63,11 @@ Computer Move
 <img src="images/${computerMove}-image.png" class = "move">`;
 
 if (result === 'You win.') {
-document.body.style.backgroundColor = 'green';
+  document.body.style.backgroundColor = '#14532d';
 } else if (result === 'You lose.') {
-document.body.style.backgroundColor = 'red';
+  document.body.style.backgroundColor = '#7f1d1d';
 } else {
-document.body.style.backgroundColor = 'gray';        
+  document.body.style.backgroundColor = '#374151';
 }
 
 
