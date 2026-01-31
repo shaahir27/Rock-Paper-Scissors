@@ -7,9 +7,15 @@
       }
 
       .title{
-        font-size: 50px;
-        font-weight: 'bold';
+        font-size: clamp(30px, 8vw, 50px);
+        font-weight: bold;
       }
+
+      .buttons{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
 
       .image-button{
         background-color: transparent;
@@ -26,19 +32,19 @@
       }
 
       .image-icon{
-        height: 60px;
+        height: clamp(50px, 18vw, 70px);
         cursor: pointer;
       }
 
       .result{
-        font-size: 50px;
+        font-size: clamp(20px, 7vw, 50px);
         font-weight: bold;
 
       }
 
       .move{
         height: 40px;
-        font-size: 50px;
+        font-size: clamp(30px, 10vw, 50px);
 
       }
 
@@ -47,20 +53,20 @@
         background-color: whitesmoke;
         border: none;
         border-radius: 70px;
-        font-size: 20px;
+        font-size: clamp(25px, 5vw, 30px);
         font-family: 'Times New Roman';
         margin-top: 20px;
         padding: 10px 15px;
       }
 
       .js-move{
-        font-size: 30px;
+        font-size: clamp(20px, 5vw, 40px);
         font-family: 'Times New Roman';
         margin-top: 20px;
       }
 
       .js-score{
-        font-size: 25px;
+        font-size: clamp(20px, 5vw, 40px);
         font-family: 'Times New Roman';
         margin-top: 20px;
       }
