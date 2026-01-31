@@ -1,0 +1,50 @@
+.body{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: 'Times New Roman';
+
+      }
+
+      .title{
+        font-size: 50px;
+        font-weight: 'bold';
+      }
+
+      .image-button{
+        background-color: transparent;
+        border: none;
+        border: 2px solid white;
+        border-radius: 100px;
+        margin: 10px;
+        padding: 20px;
+        transition: 0.4s;
+      }
+
+      .image-button:hover{
+        transform: scale(1.1);
+      }
+
+      .image-icon{
+        height: 60px;
+        cursor: pointer;
+      }
+
+      .result{
+        font-size: 50px;
+        font-weight: bold;
+
+      }
+
+      .move{
+        height: 30px;
+        font-size: 30px;
+
+      }
+
+      .reset{
+        font-size: 20px;
+        font-family: 'Times New Roman';
+        margin-top: 20px;
+        padding: 10px 15px;
+      }
